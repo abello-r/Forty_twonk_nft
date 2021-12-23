@@ -4,22 +4,25 @@ const layersOrder = [
     { name: 'skin', number: 8 },
     { name: 'clothes', number: 14 },
     { name: 'clothing_accessories', number: 14 },
+	{ name: 'face', number: 18 },
+	{ name: 'face_tune', number: 15 },
     { name: 'shine', number: 1 },
     { name: 'shine', number: 1 },
     { name: 'top lid', number: 3 },
 ];
-  
+
 const format = {
-    width: 1230,
-    height: 1230
+    width: 4230,
+    height: 4230
 };
 
 const rarity = [
     { key: "", val: "original" },
     { key: "_r", val: "rare" },
     { key: "_sr", val: "super rare" },
+	{ key: "_ur", val: "ultra rare"}
 ];
 
-const defaultEdition = 20;
+const defaultEdition = 5;
 
 module.exports = { layersOrder, format, rarity, defaultEdition };
